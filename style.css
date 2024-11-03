@@ -1,0 +1,120 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+}
+
+body
+{
+    background-color: gray;
+}
+
+
+
+header
+{
+    background-color: aqua;
+    text-align: center;
+    height: 40%;
+}
+
+main
+{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: gray;
+    padding: 15px;
+}
+
+.containerbody
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.toyota
+{
+    width: 200px;
+   border-radius: 5px;
+    box-shadow: 5px 5px 15px  rgba(0, 0, 0, 1);
+    background-color: gray;
+    margin-bottom: 20px;
+
+}
+
+
+.flexcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: flex-start;
+    flex: 1;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover
+{
+    background-color: rgb(124, 123, 123);
+    color: black;
+    border-radius: 50px;
+}
+
+nav
+{
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+nav ul li
+{
+    float: right;
+    padding: 20px 270px;
+    font-weight: bold;    
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+nav ul li a:hover
+{
+    background-color: aqua;
+    color: black;
+    
+}
+
